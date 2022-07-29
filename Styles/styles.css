@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 33px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+    color: #828282;
+    font-family: "Montserrat";
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header_nav_item:hover {
+    color: black;
+}
+
+.header_nav_item:not(:last-child) {
+    margin-right: 155px;
+}
+
+.border {
+    margin-top: 53px;
+}
