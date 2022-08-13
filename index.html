@@ -16,16 +16,81 @@
         <div class="header">
             <nav>
                 <ul class="header_nav">
-                    <li class="header_nav_item"><a>Home</a></li>
-                    <li class="header_nav_item"><a>About me</a></li>
-                    <li class="header_nav_item"><a>Skills</a></li>
-                    <li class="header_nav_item"><a>Portfolio</a></li>
-                    <li class="header_nav_item"><a>Contacts</a></li>
+                    <li class="header_nav_item"><a class="decor" href="#home">Home</a></li>
+                    <li class="header_nav_item"><a class="decor" href="#aboutMe">About me</a></li>
+                    <li class="header_nav_item"><a class="decor" href="#skills">Skills</a></li>
+                    <li class="header_nav_item"><a class="decor" href="#portfolio">Portfolio</a></li>
+                    <li class="header_nav_item"><a class="decor" href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
-            <hr class="border" color="#828282" width="940px" size="1px">
+            <hr class="border" color="#828282" width="90%" size="1px">
         </div>
     </header>
-    <h1>adadadad</h1>
+    <main>
+        <section id="home"> <!--Первый блок и изображение-->
+            <div class="container">
+                <div class="first_block">
+                    <h1 class="name">Denis </br> Novik</h1>
+                    <p class="text">UX | UI designer </br> 24 years old, Minsk</p>
+                    <p class="switch">RU | ENG</p> <!--Перевести в переключатель-->
+                </div>
+                <div><img class="scaling" src="Images/Human.jpg" alt="Human"></div>
+            </div>
+        </section>
+        <section class="about_me_section" id="aboutMe">
+            <div class="container">
+                <div class="about">
+                    <h1 class="heading">About me</h1>
+                    <p class="about_text">Hi, I'm Denis – UX/UI designer from Minsk. </br> 
+                        I'm interested in design and everything connected with it.</p>
+                    <p class="about_text">I'm studying at courses "Web and mobile design </br> 
+                        interfaces" in IT-Academy.</p>
+                    <p class="about_text">Ready to implement excellent projects </br> 
+                        with wonderful people.</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills_section" id="skills">
+            <div class="container">
+                <h1 class="heading">Skills</h1>
+                <p class="skills_text">I work in such programs as</p>
+                <div class="programs">
+                    <img class="scaling_programs" src="Images/Photoshop.png" alt="Photoshop">
+                    <img class="scaling_programs" src="Images/Illustrator.png" alt="Illustrator">
+                    <img class="scaling_programs" src="Images/Effects.png" alt="Effects">
+                    <img class="scaling_programs" src="Images/Figma.png" alt="Figma">
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h1 class="heading">Portfolio</h1>
+                <div class="portfolio_work">
+                    <img class="scaling" src="Images/OnlineFasion.jpg" alt="Online fashion store - Homepage">
+                    <p class="text_portfolio">Online fashion store - Homepage</p>
+                    <img class="scaling" src="Images/Reebok.jpg" alt="Reebok Store - Concept">
+                    <p class="text_portfolio">Reebok Store - Concept</p>
+                    <img class="scaling" src="Images/Braun.jpg" alt="Braun Landing Page - Concept">
+                    <p class="text_portfolio">Braun Landing Page - Concept</p>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <h1 class="heading">Contacts</h1>
+                <p class="text_contacts">Want to know more or just chat? </br> You are welcome!</p>
+                <div class="center_button">
+                    <button class="button_mail" onclick="window.location.href = 'mailto:';">Send message</button>
+                </div>
+                <div class="connection">
+                    <a href="https://www.linkedin.com/"><img src="Images/LinkedIn.png" alt=""></a>
+                    <a href="https://www.instagram.com/"><img src="Images/Instagram.png" alt=""></a>
+                    <a href="https://www.behance.net/galleries/graphic-design/logo"><img src="Images/Behance.png" alt=""></a>
+                    <a href="#home"><img src="Images/WebSite.png" alt=""></a>
+                </div>
+                <p class="text_end">Like me on </br> LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
