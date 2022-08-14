@@ -1,3 +1,9 @@
+@media screen and (min-width: 600px) {
+    .mobi_img {
+        display: none;
+    }
+}
+
 body {
     margin: 0;
     
@@ -41,7 +47,7 @@ body * {
 
 .name {
     font-family: "Montserrat";
-    font-size: 47.3392px;
+    font-size: 47.3px;
     line-height: 59px;
 }
 
@@ -118,7 +124,7 @@ body * {
 }
 
 .portfolio {
-    height: 2301px;
+    height: auto;
     background-color: #F6F6F6;
     margin-top: 110px;
     padding-top: 113px;
@@ -126,6 +132,7 @@ body * {
 
 .portfolio_work {
     margin-top: 47px;
+    padding-bottom: 1px;
 }
 
 .text_portfolio {
